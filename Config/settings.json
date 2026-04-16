@@ -1,0 +1,30 @@
+{
+  "Ontap": {
+    "ClusterUrl": "https://cluster2.demo.netapp.com",
+    "ApiPath": "/api/private/cli/snapmirror?fields=source-path,source-vserver,source-volume,destination-path,destination-vserver,destination-volume,last-transfer-type,last-transfer-error,last-transfer-size,last-transfer-duration,last-transfer-end-timestamp",
+    "Username": "admin",
+    "PasswordEncrypted": "<run Scripts/New-SettingsJson.ps1 to generate>",
+    "IgnoreCertificate": true
+  },
+  "History": {
+    "Folder": ".\\History",
+    "DedupMode": "ByTransferResult"
+  },
+  "Mail": {
+    "SmtpServer": "smtp.demo.com",
+    "Port": 587,
+    "UseSsl": true,
+    "UseAuthentication": true,
+    "Sender": "netapp-report@demo.com",
+    "SenderPasswordEncrypted": "<run Scripts/New-SettingsJson.ps1 to generate>",
+    "To": [
+      "user1@demo.com",
+      "user2@demo.com"
+    ],
+    "Cc": [],
+    "Bcc": []
+  },
+  "Log": {
+    "Folder": ".\\Logs"
+  }
+}
