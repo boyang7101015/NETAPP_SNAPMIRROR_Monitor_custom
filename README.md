@@ -1,4 +1,4 @@
-# NETAPP SNAPMIRROR
+# NETAPP SNAPMIRROR Monitor Custom
 
 這個專案用來查詢 NetApp ONTAP SnapMirror 狀態，產生每日報表，寫入歷史 CSV，並透過電子郵件寄送 HTML 報告與壓縮附件。
 
